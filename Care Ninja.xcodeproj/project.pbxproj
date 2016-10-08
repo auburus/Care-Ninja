@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B55C2EB41DA95B6800C65045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C2EB31DA95B6800C65045 /* AppDelegate.swift */; };
-		B55C2EB61DA95B6800C65045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C2EB51DA95B6800C65045 /* ViewController.swift */; };
 		B55C2EB91DA95B6800C65045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55C2EB71DA95B6800C65045 /* Main.storyboard */; };
 		B55C2EBB1DA95B6800C65045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55C2EBA1DA95B6800C65045 /* Assets.xcassets */; };
 		B55C2EBE1DA95B6800C65045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55C2EBC1DA95B6800C65045 /* LaunchScreen.storyboard */; };
 		B55C2EC91DA95B6800C65045 /* Care_NinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C2EC81DA95B6800C65045 /* Care_NinjaTests.swift */; };
 		B55C2ED41DA95B6800C65045 /* Care_NinjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C2ED31DA95B6800C65045 /* Care_NinjaUITests.swift */; };
+		B55C2EE21DA9610000C65045 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C2EE11DA9610000C65045 /* LoginVC.swift */; };
+		B55C2EE71DA9636000C65045 /* login.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B55C2EE61DA9636000C65045 /* login.mp4 */; };
+		B58050451DA97A2700C76193 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58050431DA97A2700C76193 /* VideoCutter.swift */; };
+		B58050461DA97A2700C76193 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58050441DA97A2700C76193 /* VideoSplashViewController.swift */; };
+		B580504B1DA97F4800C76193 /* careninja_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B58050481DA97F4800C76193 /* careninja_logo.png */; };
+		B580504C1DA97F4800C76193 /* fb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B58050491DA97F4800C76193 /* fb_logo.png */; };
+		B580504D1DA97F4800C76193 /* give_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B580504A1DA97F4800C76193 /* give_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		B55C2EB01DA95B6800C65045 /* Care Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Care Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55C2EB31DA95B6800C65045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B55C2EB51DA95B6800C65045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B55C2EB81DA95B6800C65045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B55C2EBA1DA95B6800C65045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B55C2EBD1DA95B6800C65045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		B55C2ECF1DA95B6800C65045 /* Care NinjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Care NinjaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55C2ED31DA95B6800C65045 /* Care_NinjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Care_NinjaUITests.swift; sourceTree = "<group>"; };
 		B55C2ED51DA95B6800C65045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55C2EE11DA9610000C65045 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B55C2EE61DA9636000C65045 /* login.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = login.mp4; sourceTree = "<group>"; };
+		B58050431DA97A2700C76193 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		B58050441DA97A2700C76193 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		B58050481DA97F4800C76193 /* careninja_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = careninja_logo.png; sourceTree = "<group>"; };
+		B58050491DA97F4800C76193 /* fb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_logo.png; sourceTree = "<group>"; };
+		B580504A1DA97F4800C76193 /* give_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = give_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,16 @@
 		B55C2EB21DA95B6800C65045 /* Care Ninja */ = {
 			isa = PBXGroup;
 			children = (
+				B58050471DA97F3300C76193 /* images */,
 				B55C2EB31DA95B6800C65045 /* AppDelegate.swift */,
-				B55C2EB51DA95B6800C65045 /* ViewController.swift */,
+				B58050431DA97A2700C76193 /* VideoCutter.swift */,
+				B58050441DA97A2700C76193 /* VideoSplashViewController.swift */,
+				B55C2EE11DA9610000C65045 /* LoginVC.swift */,
 				B55C2EB71DA95B6800C65045 /* Main.storyboard */,
 				B55C2EBA1DA95B6800C65045 /* Assets.xcassets */,
 				B55C2EBC1DA95B6800C65045 /* LaunchScreen.storyboard */,
 				B55C2EBF1DA95B6800C65045 /* Info.plist */,
+				B55C2EE61DA9636000C65045 /* login.mp4 */,
 			);
 			path = "Care Ninja";
 			sourceTree = "<group>";
@@ -123,6 +139,16 @@
 				B55C2ED51DA95B6800C65045 /* Info.plist */,
 			);
 			path = "Care NinjaUITests";
+			sourceTree = "<group>";
+		};
+		B58050471DA97F3300C76193 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B58050481DA97F4800C76193 /* careninja_logo.png */,
+				B58050491DA97F4800C76193 /* fb_logo.png */,
+				B580504A1DA97F4800C76193 /* give_button.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55C2EBE1DA95B6800C65045 /* LaunchScreen.storyboard in Resources */,
+				B580504D1DA97F4800C76193 /* give_button.png in Resources */,
+				B55C2EE71DA9636000C65045 /* login.mp4 in Resources */,
 				B55C2EBB1DA95B6800C65045 /* Assets.xcassets in Resources */,
+				B580504B1DA97F4800C76193 /* careninja_logo.png in Resources */,
+				B580504C1DA97F4800C76193 /* fb_logo.png in Resources */,
 				B55C2EB91DA95B6800C65045 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55C2EB61DA95B6800C65045 /* ViewController.swift in Sources */,
+				B58050451DA97A2700C76193 /* VideoCutter.swift in Sources */,
 				B55C2EB41DA95B6800C65045 /* AppDelegate.swift in Sources */,
+				B55C2EE21DA9610000C65045 /* LoginVC.swift in Sources */,
+				B58050461DA97A2700C76193 /* VideoSplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +514,7 @@
 				B55C2EDA1DA95B6800C65045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B55C2EDB1DA95B6800C65045 /* Build configuration list for PBXNativeTarget "Care NinjaTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +523,7 @@
 				B55C2EDD1DA95B6800C65045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B55C2EDE1DA95B6800C65045 /* Build configuration list for PBXNativeTarget "Care NinjaUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +532,7 @@
 				B55C2EE01DA95B6800C65045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

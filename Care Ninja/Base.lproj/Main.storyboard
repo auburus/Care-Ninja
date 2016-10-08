@@ -1,25 +1,196 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginVC" customModule="Care_Ninja" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlZ-b2-OfS">
+                                <rect key="frame" x="33" y="461" width="253" height="92"/>
+                                <state key="normal" backgroundImage="give_button.png"/>
+                                <connections>
+                                    <segue destination="S5M-cP-07y" kind="modal" id="8LM-sz-cpB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8z-S5-KtP">
+                                <rect key="frame" x="33" y="386" width="257" height="55"/>
+                                <state key="normal" backgroundImage="fb_logo.png"/>
+                                <connections>
+                                    <segue destination="fHz-hd-GGM" kind="modal" id="A8r-fo-rde"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="careninja_logo.png" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lud-Uh-b98">
+                                <rect key="frame" x="13" y="34" width="292" height="203"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-263" y="263"/>
+        </scene>
+        <!--Care Ninja-->
+        <scene sceneID="vX1-Gc-sgy">
+            <objects>
+                <viewController id="NK1-LD-qdJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Yg-7q-Qi2"/>
+                        <viewControllerLayoutGuide type="bottom" id="JFG-O7-YXM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hzr-Bg-HWd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gM-Oy-Cvg">
+                                <rect key="frame" x="20" y="85" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ty-1Q-mzJ">
+                                <rect key="frame" x="255" y="250" width="45" height="30"/>
+                                <state key="normal" title="Goods"/>
+                                <connections>
+                                    <segue destination="pDy-jY-Xzu" kind="push" id="ygI-gz-3aR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KzV-1F-MM6">
+                                <rect key="frame" x="107" y="518" width="107" height="30"/>
+                                <state key="normal" title="Get more credit"/>
+                                <connections>
+                                    <segue destination="HPF-nt-BEZ" kind="push" id="NgL-iV-oa2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bl-3C-n5p">
+                                <rect key="frame" x="108" y="489" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDZ-Jy-5DU">
+                                <rect key="frame" x="27" y="149" width="34" height="30"/>
+                                <state key="normal" title="Time"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ra-HA-JFZ">
+                                <rect key="frame" x="254" y="149" width="47" height="30"/>
+                                <state key="normal" title="Money"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fw-bJ-yx2">
+                                <rect key="frame" x="26" y="250" width="35" height="30"/>
+                                <state key="normal" title="Food"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Care Ninja" id="zP7-H3-GAO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N07-rU-j4B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="781" y="620"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IsO-IJ-r7N">
+            <objects>
+                <viewController id="HPF-nt-BEZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AAn-AZ-bOA"/>
+                        <viewControllerLayoutGuide type="bottom" id="3ir-Xz-jbX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VhO-Cs-0l1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xtY-Z3-FJM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DSr-HR-Wy6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="776" y="1276"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dQ6-bE-zFR">
+            <objects>
+                <viewController id="pDy-jY-Xzu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="htf-Is-w2l"/>
+                        <viewControllerLayoutGuide type="bottom" id="IRM-BR-zjj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sxx-SG-b74">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NdR-Mg-chQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xcA-4o-3Ja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1176" y="620"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JiI-sC-Ncy">
+            <objects>
+                <viewController id="S5M-cP-07y" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dNQ-xd-Wcu"/>
+                        <viewControllerLayoutGuide type="bottom" id="OtF-5b-VfA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oBr-ki-fXA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cL-BP-4jh">
+                                <rect key="frame" x="122" y="230" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="fHz-hd-GGM" kind="modal" id="jm3-AF-bdK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Wf-ge-eFK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-263" y="942"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XYX-1A-egn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fHz-hd-GGM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qYk-5a-Ugj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NK1-LD-qdJ" kind="relationship" relationship="rootViewController" id="cxg-Bh-tCX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mcc-yA-kYo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249" y="620"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="careninja_logo.png" width="543" height="379"/>
+        <image name="fb_logo.png" width="527" height="113"/>
+        <image name="give_button.png" width="675" height="247"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="A8r-fo-rde"/>
+    </inferredMetricsTieBreakers>
 </document>
