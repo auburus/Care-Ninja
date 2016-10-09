@@ -11,8 +11,6 @@ import UIKit
 
 class LoginVC: VideoSplashViewController
 {
-    @IBOutlet weak var createNewAccountButton: UIButton!
-    @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad()
     {

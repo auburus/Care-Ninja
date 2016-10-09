@@ -20,6 +20,9 @@
 		B580504B1DA97F4800C76193 /* careninja_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B58050481DA97F4800C76193 /* careninja_logo.png */; };
 		B580504C1DA97F4800C76193 /* fb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B58050491DA97F4800C76193 /* fb_logo.png */; };
 		B580504D1DA97F4800C76193 /* give_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B580504A1DA97F4800C76193 /* give_button.png */; };
+		B58050511DA9C79C00C76193 /* donation_types.png in Resources */ = {isa = PBXBuildFile; fileRef = B580504E1DA9C79C00C76193 /* donation_types.png */; };
+		B58050521DA9C79C00C76193 /* list_of_orgs.png in Resources */ = {isa = PBXBuildFile; fileRef = B580504F1DA9C79C00C76193 /* list_of_orgs.png */; };
+		B58050531DA9C79C00C76193 /* org_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = B58050501DA9C79C00C76193 /* org_prof.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		B58050481DA97F4800C76193 /* careninja_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = careninja_logo.png; sourceTree = "<group>"; };
 		B58050491DA97F4800C76193 /* fb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_logo.png; sourceTree = "<group>"; };
 		B580504A1DA97F4800C76193 /* give_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = give_button.png; sourceTree = "<group>"; };
+		B580504E1DA9C79C00C76193 /* donation_types.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donation_types.png; sourceTree = "<group>"; };
+		B580504F1DA9C79C00C76193 /* list_of_orgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_of_orgs.png; sourceTree = "<group>"; };
+		B58050501DA9C79C00C76193 /* org_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = org_prof.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,9 @@
 		B58050471DA97F3300C76193 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				B580504E1DA9C79C00C76193 /* donation_types.png */,
+				B580504F1DA9C79C00C76193 /* list_of_orgs.png */,
+				B58050501DA9C79C00C76193 /* org_prof.png */,
 				B58050481DA97F4800C76193 /* careninja_logo.png */,
 				B58050491DA97F4800C76193 /* fb_logo.png */,
 				B580504A1DA97F4800C76193 /* give_button.png */,
@@ -260,6 +269,9 @@
 				B55C2EE71DA9636000C65045 /* login.mp4 in Resources */,
 				B55C2EBB1DA95B6800C65045 /* Assets.xcassets in Resources */,
 				B580504B1DA97F4800C76193 /* careninja_logo.png in Resources */,
+				B58050531DA9C79C00C76193 /* org_prof.png in Resources */,
+				B58050521DA9C79C00C76193 /* list_of_orgs.png in Resources */,
+				B58050511DA9C79C00C76193 /* donation_types.png in Resources */,
 				B580504C1DA97F4800C76193 /* fb_logo.png in Resources */,
 				B55C2EB91DA95B6800C65045 /* Main.storyboard in Resources */,
 			);

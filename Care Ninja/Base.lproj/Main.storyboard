@@ -20,15 +20,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlZ-b2-OfS">
                                 <rect key="frame" x="33" y="461" width="253" height="92"/>
                                 <state key="normal" backgroundImage="give_button.png"/>
-                                <connections>
-                                    <segue destination="S5M-cP-07y" kind="modal" id="8LM-sz-cpB"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8z-S5-KtP">
                                 <rect key="frame" x="33" y="386" width="257" height="55"/>
                                 <state key="normal" backgroundImage="fb_logo.png"/>
                                 <connections>
-                                    <segue destination="fHz-hd-GGM" kind="modal" id="A8r-fo-rde"/>
+                                    <segue destination="dZ5-Cc-FP6" kind="modal" id="gPC-2K-UNh"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="careninja_logo.png" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lud-Uh-b98">
@@ -42,155 +39,111 @@
             </objects>
             <point key="canvasLocation" x="-263" y="263"/>
         </scene>
-        <!--Care Ninja-->
-        <scene sceneID="vX1-Gc-sgy">
+        <!--View Controller-->
+        <scene sceneID="PeA-Ns-FTM">
             <objects>
-                <viewController id="NK1-LD-qdJ" sceneMemberID="viewController">
+                <viewController id="dZ5-Cc-FP6" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="7Yg-7q-Qi2"/>
-                        <viewControllerLayoutGuide type="bottom" id="JFG-O7-YXM"/>
+                        <viewControllerLayoutGuide type="top" id="1k8-OI-VBd"/>
+                        <viewControllerLayoutGuide type="bottom" id="M7T-et-GKW"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Hzr-Bg-HWd">
+                    <view key="view" contentMode="scaleToFill" id="Ljc-NU-sIJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gM-Oy-Cvg">
-                                <rect key="frame" x="20" y="85" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ty-1Q-mzJ">
-                                <rect key="frame" x="255" y="250" width="45" height="30"/>
-                                <state key="normal" title="Goods"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donation_types.png" translatesAutoresizingMaskIntoConstraints="NO" id="wdU-Iw-y7x">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbM-ek-hjG">
+                                <rect key="frame" x="29" y="148" width="260" height="312"/>
                                 <connections>
-                                    <segue destination="pDy-jY-Xzu" kind="push" id="ygI-gz-3aR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KzV-1F-MM6">
-                                <rect key="frame" x="107" y="518" width="107" height="30"/>
-                                <state key="normal" title="Get more credit"/>
-                                <connections>
-                                    <segue destination="HPF-nt-BEZ" kind="push" id="NgL-iV-oa2"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bl-3C-n5p">
-                                <rect key="frame" x="108" y="489" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDZ-Jy-5DU">
-                                <rect key="frame" x="27" y="149" width="34" height="30"/>
-                                <state key="normal" title="Time"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ra-HA-JFZ">
-                                <rect key="frame" x="254" y="149" width="47" height="30"/>
-                                <state key="normal" title="Money"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fw-bJ-yx2">
-                                <rect key="frame" x="26" y="250" width="35" height="30"/>
-                                <state key="normal" title="Food"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Care Ninja" id="zP7-H3-GAO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="N07-rU-j4B" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="781" y="620"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="IsO-IJ-r7N">
-            <objects>
-                <viewController id="HPF-nt-BEZ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="AAn-AZ-bOA"/>
-                        <viewControllerLayoutGuide type="bottom" id="3ir-Xz-jbX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="VhO-Cs-0l1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="xtY-Z3-FJM"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DSr-HR-Wy6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="776" y="1276"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="dQ6-bE-zFR">
-            <objects>
-                <viewController id="pDy-jY-Xzu" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="htf-Is-w2l"/>
-                        <viewControllerLayoutGuide type="bottom" id="IRM-BR-zjj"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Sxx-SG-b74">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="NdR-Mg-chQ"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xcA-4o-3Ja" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1176" y="620"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="JiI-sC-Ncy">
-            <objects>
-                <viewController id="S5M-cP-07y" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dNQ-xd-Wcu"/>
-                        <viewControllerLayoutGuide type="bottom" id="OtF-5b-VfA"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="oBr-ki-fXA">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cL-BP-4jh">
-                                <rect key="frame" x="122" y="230" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="fHz-hd-GGM" kind="modal" id="jm3-AF-bdK"/>
+                                    <segue destination="Dj1-99-8bM" kind="modal" id="L4E-HZ-e1x"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Wf-ge-eFK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xHw-Ct-y3X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-263" y="942"/>
+            <point key="canvasLocation" x="173" y="260"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="XYX-1A-egn">
+        <!--View Controller-->
+        <scene sceneID="SEV-5D-FVN">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fHz-hd-GGM" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qYk-5a-Ugj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="NK1-LD-qdJ" kind="relationship" relationship="rootViewController" id="cxg-Bh-tCX"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mcc-yA-kYo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Dj1-99-8bM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jXd-pd-Wj9"/>
+                        <viewControllerLayoutGuide type="bottom" id="cMW-se-jA0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AuS-mf-Y6T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_of_orgs.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Pu-TL-ORp">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTJ-b9-N27">
+                                <rect key="frame" x="0.0" y="20" width="52" height="51"/>
+                                <connections>
+                                    <segue destination="dZ5-Cc-FP6" kind="modal" id="hGN-MQ-ANs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SS5-7h-hId">
+                                <rect key="frame" x="26" y="187" width="262" height="361"/>
+                                <connections>
+                                    <segue destination="ZL9-8r-mOr" kind="modal" id="afH-Cl-AuR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ihC-Mz-YXd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uJ8-2P-lbw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="249" y="620"/>
+            <point key="canvasLocation" x="575" y="260"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fnG-PB-6Kx">
+            <objects>
+                <viewController id="ZL9-8r-mOr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q8U-M3-hYc"/>
+                        <viewControllerLayoutGuide type="bottom" id="1qA-PU-GH1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qJ6-B6-l0y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="org_prof.png" translatesAutoresizingMaskIntoConstraints="NO" id="fnp-tL-kQH">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FU4-JB-2o8">
+                                <rect key="frame" x="0.0" y="28" width="51" height="50"/>
+                                <connections>
+                                    <segue destination="Dj1-99-8bM" kind="modal" id="Zxa-1U-Aa4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M6a-6F-j5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="971" y="260"/>
         </scene>
     </scenes>
     <resources>
         <image name="careninja_logo.png" width="543" height="379"/>
+        <image name="donation_types.png" width="764" height="1369"/>
         <image name="fb_logo.png" width="527" height="113"/>
         <image name="give_button.png" width="675" height="247"/>
+        <image name="list_of_orgs.png" width="764" height="1369"/>
+        <image name="org_prof.png" width="764" height="1369"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="A8r-fo-rde"/>
+        <segue reference="Zxa-1U-Aa4"/>
+        <segue reference="gPC-2K-UNh"/>
     </inferredMetricsTieBreakers>
 </document>
