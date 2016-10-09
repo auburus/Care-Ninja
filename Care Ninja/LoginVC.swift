@@ -10,12 +10,13 @@
 import UIKit
 
 class LoginVC: VideoSplashViewController
-{
-    
+{    
+    @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad()
     {
         super.viewDidLoad()
         setupVideoBackground()
+        setupButton()
     }
     
     private func setupVideoBackground()
@@ -32,7 +33,11 @@ class LoginVC: VideoSplashViewController
         backgroundColor = UIColor.whiteColor()
         
         contentURL = url
-        view.userInteractionEnabled = false
+    }
+    
+    private func setupButton()
+    {
+        loginButton.layer.masksToBounds = true
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
