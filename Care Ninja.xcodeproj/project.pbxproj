@@ -24,6 +24,10 @@
 		B58050521DA9C79C00C76193 /* list_of_orgs.png in Resources */ = {isa = PBXBuildFile; fileRef = B580504F1DA9C79C00C76193 /* list_of_orgs.png */; };
 		B58050551DAA1E5800C76193 /* org_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = B58050541DAA1E5800C76193 /* org_prof.png */; };
 		B58050571DAA1E5D00C76193 /* verification_page.png in Resources */ = {isa = PBXBuildFile; fileRef = B58050561DAA1E5D00C76193 /* verification_page.png */; };
+		B58050591DAA230700C76193 /* time_donation_thankyou.png in Resources */ = {isa = PBXBuildFile; fileRef = B58050581DAA230700C76193 /* time_donation_thankyou.png */; };
+		B580505B1DAA230C00C76193 /* payment_page.png in Resources */ = {isa = PBXBuildFile; fileRef = B580505A1DAA230C00C76193 /* payment_page.png */; };
+		B580505D1DAA231000C76193 /* cashONLY_donation_thankyou.png in Resources */ = {isa = PBXBuildFile; fileRef = B580505C1DAA231000C76193 /* cashONLY_donation_thankyou.png */; };
+		B580505F1DAA231C00C76193 /* carecredit_ad_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B580505E1DAA231C00C76193 /* carecredit_ad_screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		B580504F1DA9C79C00C76193 /* list_of_orgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_of_orgs.png; sourceTree = "<group>"; };
 		B58050541DAA1E5800C76193 /* org_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = org_prof.png; sourceTree = "<group>"; };
 		B58050561DAA1E5D00C76193 /* verification_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verification_page.png; sourceTree = "<group>"; };
+		B58050581DAA230700C76193 /* time_donation_thankyou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_donation_thankyou.png; sourceTree = "<group>"; };
+		B580505A1DAA230C00C76193 /* payment_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payment_page.png; sourceTree = "<group>"; };
+		B580505C1DAA231000C76193 /* cashONLY_donation_thankyou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cashONLY_donation_thankyou.png; sourceTree = "<group>"; };
+		B580505E1DAA231C00C76193 /* carecredit_ad_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carecredit_ad_screen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +167,10 @@
 				B58050491DA97F4800C76193 /* fb_logo.png */,
 				B58050561DAA1E5D00C76193 /* verification_page.png */,
 				B580504A1DA97F4800C76193 /* give_button.png */,
+				B58050581DAA230700C76193 /* time_donation_thankyou.png */,
+				B580505A1DAA230C00C76193 /* payment_page.png */,
+				B580505C1DAA231000C76193 /* cashONLY_donation_thankyou.png */,
+				B580505E1DAA231C00C76193 /* carecredit_ad_screen.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -267,7 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B580505F1DAA231C00C76193 /* carecredit_ad_screen.png in Resources */,
 				B55C2EBE1DA95B6800C65045 /* LaunchScreen.storyboard in Resources */,
+				B580505B1DAA230C00C76193 /* payment_page.png in Resources */,
 				B580504D1DA97F4800C76193 /* give_button.png in Resources */,
 				B55C2EE71DA9636000C65045 /* login.mp4 in Resources */,
 				B58050571DAA1E5D00C76193 /* verification_page.png in Resources */,
@@ -276,6 +290,8 @@
 				B58050551DAA1E5800C76193 /* org_prof.png in Resources */,
 				B58050521DA9C79C00C76193 /* list_of_orgs.png in Resources */,
 				B58050511DA9C79C00C76193 /* donation_types.png in Resources */,
+				B58050591DAA230700C76193 /* time_donation_thankyou.png in Resources */,
+				B580505D1DAA231000C76193 /* cashONLY_donation_thankyou.png in Resources */,
 				B580504C1DA97F4800C76193 /* fb_logo.png in Resources */,
 				B55C2EB91DA95B6800C65045 /* Main.storyboard in Resources */,
 			);
