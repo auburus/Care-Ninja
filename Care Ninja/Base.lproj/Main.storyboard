@@ -64,6 +64,12 @@
                                     <segue destination="Dj1-99-8bM" kind="modal" id="L4E-HZ-e1x"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xI-In-o07">
+                                <rect key="frame" x="0.0" y="15" width="49" height="49"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="T0j-YW-lDN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -184,7 +190,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="TwM-yO-9Xf"/>
-        <segue reference="Zxa-1U-Aa4"/>
+        <segue reference="L4E-HZ-e1x"/>
         <segue reference="taA-H0-8Xy"/>
     </inferredMetricsTieBreakers>
 </document>
